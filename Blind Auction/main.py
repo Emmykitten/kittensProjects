@@ -11,9 +11,7 @@ def add_bid(name,bid):
 while more_bids:
     usr_name = input("What is your name?: ")
     usr_bid = int(input("What is your bid?: $"))
-    # TODO-2: Save data into dictionary {name: price}
     add_bid(usr_name,usr_bid)
-    # TODO-3: Whether if new bids need to be added
     another_bid = input("Are there any other bidders? 'yes' or 'no'").lower()
     if another_bid == "yes":
         print("\n" * 20)
